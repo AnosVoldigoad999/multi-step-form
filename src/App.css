@@ -220,7 +220,7 @@ input[type=text]{
 }
 
 .texts .texterror{
-  padding: 10px 0;
+  padding: 15px 0;
   border: 1px solid var(--Strawberry-red);
   text-indent: 10px;
   outline: none;
@@ -475,6 +475,7 @@ input[type=text]{
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 30px;
 }
 
 .confirmation h2{
@@ -717,7 +718,7 @@ footer{
   }
   
   .texts .texterror{
-    padding: 10px 0;
+    padding: 15px 0;
     border: 1px solid var(--Strawberry-red);
     text-indent: 10px;
     outline: none;
@@ -788,17 +789,18 @@ footer{
   
   .paymenttype{
     display: flex;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     background-color: var(--Alabaster);
     margin-top: 20px;
     box-shadow: 0 0 2px var(--Light-gray);
     align-items: center;
-    padding: 0 30%;
+    padding: 0 5%;
     justify-content: space-between;
   }
   
   .slider{
     width: 42px;
+    border: 1px solid red;
     height: 20px;
     background-color: var(--Marine-blue);
     border-radius: 10px;
@@ -986,6 +988,7 @@ footer{
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 30px;
 }
 
 .confirmation h2{
