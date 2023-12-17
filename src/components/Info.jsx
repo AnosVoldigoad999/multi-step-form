@@ -177,7 +177,6 @@ function Info({userInfo, setUserInfo, complete, setComplete}) {
                             if(Number(e.target.value)){
                                 setUserInfo({...userInfo, number:Number(e.target.value)})
                                 setNumberError(false)
-                                console.log(userInfo.number)
                             } else{
                                 setUserInfo({...userInfo, number:e.target.value})
                                 setNumberError(true)

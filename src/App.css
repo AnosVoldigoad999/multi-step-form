@@ -789,7 +789,7 @@ footer{
   
   .paymenttype{
     display: flex;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color: var(--Alabaster);
     margin-top: 20px;
     box-shadow: 0 0 2px var(--Light-gray);
@@ -800,7 +800,7 @@ footer{
   
   .slider{
     width: 42px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 20px;
     background-color: var(--Marine-blue);
     border-radius: 10px;
