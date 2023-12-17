@@ -143,7 +143,7 @@ function Summary({complete, setComplete, userPlan, userAddons, total, setTotal})
     </div>
 </div>
 {!isComplete && <footer>
-        <button className='back' onClick={()=>{setComplete({...complete, three:false})}}>Go Back</button>
+        <button className='back' onClick={()=>{setComplete({...complete, three:false}); setTotal(total-userPlan.price)}}>Go Back</button>
            <button className='next' onClick={()=>{setIsComplete(true)}}>Confirm</button>
 </footer>}
 </>
